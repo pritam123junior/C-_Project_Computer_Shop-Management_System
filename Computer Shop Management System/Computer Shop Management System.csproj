@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B8516C54-7FE5-4C0D-8E83-E26B519AF142}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Computer_Shop_Management_System</RootNamespace>
+    <AssemblyName>Computer Shop Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Downloads\Guna.UI-Framework-Lib-master (1)\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company_DATADataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Company_DATADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUCbills1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MUCbills1.Designer.cs">
+      <DependentUpon>MUCbills1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUCcustomerlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MUCcustomerlist.Designer.cs">
+      <DependentUpon>MUCcustomerlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUCorderlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MUCorderlist.Designer.cs">
+      <DependentUpon>MUCorderlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUCProductlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MUCProductlist.Designer.cs">
+      <DependentUpon>MUCProductlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUserControlDash.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MUserControlDash.Designer.cs">
+      <DependentUpon>MUserControlDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUserControlNoti.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MUserControlNoti.Designer.cs">
+      <DependentUpon>MUserControlNoti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salesman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salesman.Designer.cs">
+      <DependentUpon>Salesman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUserControlCart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SUserControlCart.Designer.cs">
+      <DependentUpon>SUserControlCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUserControlNoti.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SUserControlNoti.Designer.cs">
+      <DependentUpon>SUserControlNoti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUserControlProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SUserControlProduct.Designer.cs">
+      <DependentUpon>SUserControlProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUserControlSells.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SUserControlSells.Designer.cs">
+      <DependentUpon>SUserControlSells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlBills.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBills.Designer.cs">
+      <DependentUpon>UserControlBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlEmployee.Designer.cs">
+      <DependentUpon>UserControlEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlnotify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlnotify.Designer.cs">
+      <DependentUpon>UserControlnotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserOrder.Designer.cs">
+      <DependentUpon>UserOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCustomer.Designer.cs">
+      <DependentUpon>UserCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlProduct.Designer.cs">
+      <DependentUpon>UserControlProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlDash.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlDash.Designer.cs">
+      <DependentUpon>UserControlDash.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUCbills1.resx">
+      <DependentUpon>MUCbills1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUCcustomerlist.resx">
+      <DependentUpon>MUCcustomerlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUCorderlist.resx">
+      <DependentUpon>MUCorderlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUCProductlist.resx">
+      <DependentUpon>MUCProductlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUserControlDash.resx">
+      <DependentUpon>MUserControlDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUserControlNoti.resx">
+      <DependentUpon>MUserControlNoti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Salesman.resx">
+      <DependentUpon>Salesman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUserControlCart.resx">
+      <DependentUpon>SUserControlCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUserControlNoti.resx">
+      <DependentUpon>SUserControlNoti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUserControlProduct.resx">
+      <DependentUpon>SUserControlProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUserControlSells.resx">
+      <DependentUpon>SUserControlSells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBills.resx">
+      <DependentUpon>UserControlBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlEmployee.resx">
+      <DependentUpon>UserControlEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlnotify.resx">
+      <DependentUpon>UserControlnotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserOrder.resx">
+      <DependentUpon>UserOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCustomer.resx">
+      <DependentUpon>UserCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlProduct.resx">
+      <DependentUpon>UserControlProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlDash.resx">
+      <DependentUpon>UserControlDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Company_DATADataSet.xsc">
+      <DependentUpon>Company_DATADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Company_DATADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Company_DATADataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Company_DATADataSet.xss">
+      <DependentUpon>Company_DATADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Active.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
