@@ -1,0 +1,37 @@
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\bin\Debug\Computer Shop Management System.exe.config
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\bin\Debug\Computer Shop Management System.exe
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\bin\Debug\Computer Shop Management System.pdb
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\bin\Debug\EntityFramework.dll
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\bin\Debug\EntityFramework.xml
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer Shop Management System.csproj.AssemblyReference.cache
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.Admin.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.Login.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.Manager.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.MUCbills1.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.MUCcustomerlist.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.MUCorderlist.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.MUCProductlist.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.MUserControlDash.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.Properties.Resources.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.UserControlBills.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.UserControlEmployee.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.UserOrder.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.UserCustomer.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.UserControlProduct.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.UserControlDash.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer Shop Management System.csproj.GenerateResource.cache
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer Shop Management System.csproj.CoreCompileInputs.cache
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer Shop Management System.csproj.CopyComplete
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer Shop Management System.exe
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer Shop Management System.pdb
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.Loading.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.UserControlnotify.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.MUserControlNoti.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.Salesman.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.SUserControlCart.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.SUserControlProduct.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.SUserControlBills.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.SUserControlNoti.resources
+C:\Users\RGON\source\repos\Computer Shop Management System\Computer Shop Management System\obj\Debug\Computer_Shop_Management_System.About.resources
